@@ -125,7 +125,7 @@ footer a {
 // SVG STYLES
 
 svg #hide {
-    display: none;
+    // display: none;
 }
 svg g:hover #hide {
     display: block;
@@ -231,6 +231,19 @@ header img {
     margin-top: 2rem;
 }
 
+#resume-container {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    padding: 5px;
+}
+
+#resume {
+    font-size: 1.5vw;
+    font-family: pixel;
+    color: $white;
+    margin: auto;
+}
   
   @media screen and (max-width: 970px) {
     .section-flex > p {
